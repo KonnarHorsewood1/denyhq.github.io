@@ -1,0 +1,38 @@
+@media screen and (min-width: 480px) {
+/**********************************
+TWO COLUMN LAYOUT
+***********************************/
+#primary {
+width: 50%;
+float: left;
+}
+#secondary {
+width: 85%;
+margin:0 auto;
+}
+
+/**********************************
+Page : About
+***********************************/
+.profile-photo {
+float: left;
+margin: 0 5% 80px 0;
+}
+@media screen and (min-width: 660px) {
+/**********************************
+Page : HEADER
+***********************************/
+
+h1 {
+font-size: 2.0em;
+margin-bottom: 20px;
+}
+h2 {
+font-size: 1.0em;
+margin-bottom: 20px
+}
+header {
+border-bottom: 5px solid #fff
+margin-bottom: 60px
+}
+}
