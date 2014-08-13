@@ -1,0 +1,214 @@
+/**********************************
+  GENERAL
+***********************************/
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+a {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-image:url('http://www.whatsthescooptoday.com/wp-content/uploads/2014/02/tweed_@2X1-300x300.png');
+  background-repeat:repeat;
+  }
+  
+ #wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	width: 100%;
+  }
+  
+  img {
+	max-width: 100%;
+  }
+  
+  h3 {
+	color: cyan;
+        font-family: 'Oswald', sans-serif;
+        margin: -20px 0px 5em 0;
+        font-weight: normal;
+	
+  }
+  
+  h4 {
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    margin: -80px 0px 4em 0;
+    padding: 0px 0 0 0;
+  }
+  
+  h5 {
+    color: cyan;
+    font-family: 'Oswald', sans-serif;
+    margin: 15px 0;
+    font-size: 2.0em;
+    font-weight: normal;
+    line-height: 2.0em;
+    display: block;
+  }
+  
+  header {
+	float: left;
+	margin: 0 0 -20px 0;
+	padding: 10px 20px 30px 0;
+	width: 100%;
+  }
+  
+  #logo{
+	text-align: center;
+	margin: 0;
+  }
+  
+  h1 {
+	color: cyan;
+        font-family: 'Oswald', sans-serif;
+	margin: 15px 0;
+	font-size: 2.0em;
+	font-weight: normal;
+	line-height: 2.0em;
+        display: block;
+  }
+  
+  h2 {
+	font-size: 1.2em;
+	margin: -20px 0 30px;
+	font-weight: normal;
+  }
+  
+  
+  /* Navigation */
+  nav {
+	text-align: center;
+	margin: -50px 0 -10px;
+  }
+  
+  nav ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  nav li {
+	display: inline-block;
+  }
+  
+  nav a {
+	font-weight: 300;
+	padding: 20px 20px;
+  }
+  
+  
+  
+  /******************************
+  Gallery
+  *******************************/
+  
+  #gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  
+  #gallery li {
+	color: #bdc3c7;
+	display: inline-block;
+	font-size: 0.70em;
+	padding: 5%;
+  }
+  
+  #gallery li a p {
+	margin: 0;
+	padding: 2%;
+	font-size: 0.60em;
+	color: white;
+	text-align: center;
+  }
+  
+  
+  /**********************************
+Contact
+***********************************/
+.contact-info {
+list-style: none;
+padding: 0;
+margin: 0;
+font-size: 1.0em;
+}
+.contact-info a {
+display: block;
+min-height: 20px;
+background-repeat: no-repeat;
+background-size: 20px 20px;
+padding: 0 0 0 30px;
+}
+
+.contact-info li.lead_skype a {
+background-image: url('http://www.iconsdb.com/icons/preview/white/skype-xxl.png');
+}
+.contact-info li.co-lead_skype a {
+background-image: url('http://www.iconsdb.com/icons/preview/white/skype-xxl.png');
+}
+.contact-info li.twitter a {
+background-image: url('http://www.iconsdb.com/icons/preview/white/twitter-xxl.png');
+}
+.contact-info li.second_co-lead_skype a {
+background-image: url('http://www.iconsdb.com/icons/preview/white/skype-xxl.png');
+}
+  
+  /*********************************
+  Footer
+  **********************************/
+  
+  footer {
+	font-size: 1.0em;
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+  }
+  
+  .social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+  }
+  
+ 
+  /*site body*/
+ body {
+	background-color: #444;
+	color: white;
+        font-size: 2px
+	margin: 0;
+ }
+ 
+ header {
+   border-color: #003;
+ }
+ 
+ /* logo text */
+ 
+ h1, {
+	color: cyan;
+ }
+ 
+ h2, {
+    color: white;
+ }
+ 
+ /* Nav Background On Mobile */
+ 
+ nav {
+	
+ }
+ 
+ /* Nav Link */
+ nav a.selected, nav a:hover {
+	color: orange;
+ }
