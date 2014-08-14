@@ -4,7 +4,7 @@
 
 /* apply a natural box layout model to all elements */
 *, *:before, *:after {
-   -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+  
  }
 
 a {
