@@ -2,10 +2,6 @@
   GENERAL
 ***********************************/
 
-/* apply a natural box layout model to all elements */
-*, *:before, *:after {
-  
- }
 
 a {
   color: white;
