@@ -123,6 +123,7 @@ body {
 	display: inline-block;
 	font-size: 0.70em;
 	padding: 5%;
+	text-align: center;
   }
   
   #gallery li a p {
