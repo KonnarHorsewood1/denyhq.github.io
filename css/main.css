@@ -213,5 +213,5 @@ background-image: url('http://www.iconsdb.com/icons/preview/white/skype-xxl.png'
  
  /* Nav Link */
  nav a.selected, nav a:hover {
-	color: orange;
+	color: cyan;
  }
